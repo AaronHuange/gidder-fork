@@ -68,8 +68,6 @@ and the repository exists.
 
   
 
-3. 
-
 3. ``` xml
   Unable to negotiate with 10.0.56.163 port 2222: no matching host key type found. Their offer: ssh-dss
   fatal: Could not read from remote repository.
@@ -78,5 +76,12 @@ and the repository exists.
   解决方法：
   在目录文件 ~/.ssh/config (没有则新建)中添加
   HostkeyAlgorithms +ssh-dss
+
+
+
+
+# PS:一个类似 Gidder 的更黑科技的服务器全家桶 Servers Ultimate Pro，支持各种常用服务器，地址请自行搜索
+
+
   
   
