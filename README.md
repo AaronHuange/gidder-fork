@@ -68,15 +68,15 @@ and the repository exists.
 
   
 
-3. ``` xml
+3. 
+
+``` xml
   Unable to negotiate with 10.0.56.163 port 2222: no matching host key type found. Their offer: ssh-dss
   fatal: Could not read from remote repository.
-  ```
-  
+```
   解决方法：
   在目录文件 ~/.ssh/config (没有则新建)中添加
   HostkeyAlgorithms +ssh-dss
-
 
 
 
